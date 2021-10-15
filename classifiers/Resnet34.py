@@ -140,4 +140,3 @@ if __name__ == "__main__":
               loss=tf.keras.losses.sparse_categorical_crossentropy,
               metrics=['accuracy'])
     model.summary()
-    pass
