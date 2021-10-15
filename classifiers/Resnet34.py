@@ -133,7 +133,7 @@ class Resnet34(tf.keras.Model):
 
 
 if __name__ == "__main__":
-
+    pass
     model = Resnet34(1000)
     model.build(input_shape=(32,224,244,3))
     model.compile(optimizer='adam',
